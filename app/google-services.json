@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "102325482083",
+    "firebase_url": "https://chatapp-7c176.firebaseio.com",
+    "project_id": "chatapp-7c176",
+    "storage_bucket": "chatapp-7c176.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102325482083:android:eeefebb82294d033",
+        "android_client_info": {
+          "package_name": "com.example.sami.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102325482083-m5tn7h1j8mjhqbgpehntplaa6jdir6hn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd7sYPJtwwqXxw_sHBtIospSYXPSGaYZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

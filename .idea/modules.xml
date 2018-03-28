@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidFirbaseChat-master.iml" filepath="$PROJECT_DIR$/AndroidFirbaseChat-master.iml" />
+      <module fileurl="file://E:\study\FYP\andriod\AndroidFirbaseChat-master\FirebaseChat.iml" filepath="E:\study\FYP\andriod\AndroidFirbaseChat-master\FirebaseChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
