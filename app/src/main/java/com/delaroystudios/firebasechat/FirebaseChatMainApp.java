@@ -1,6 +1,7 @@
 package com.delaroystudios.firebasechat;
 
 import android.app.Application;
+import android.util.Log;
 
 
 public class FirebaseChatMainApp extends Application {
@@ -14,9 +15,9 @@ public class FirebaseChatMainApp extends Application {
         FirebaseChatMainApp.sIsChatActivityOpen = isChatActivityOpen;
     }
 
-    //Change checkt kro nah ji .........................:*
     @Override
     public void onCreate() {
         super.onCreate();
+        Log.e("hello","hello");
     }
 }
