@@ -14,6 +14,7 @@ public class FirebaseChatMainApp extends Application {
         FirebaseChatMainApp.sIsChatActivityOpen = isChatActivityOpen;
     }
 
+    //Change checkt kro nah ji .........................:*
     @Override
     public void onCreate() {
         super.onCreate();
