@@ -12,7 +12,7 @@
     <TableLayout
 
         android:layout_width="fill_parent"
-        android:layout_height="200sp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:clipChildren="true"
         android:orientation="vertical" >
@@ -23,19 +23,179 @@
             android:layout_height="200sp"
             android:padding="0sp" >
 
+
             <TableRow
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:padding="0sp"
-                >
+                android:layout_height="fill_parent" >
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="55sp"
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45sp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
-                    android:baselineAligned="true"
-                    android:fitsSystemWindows="true">
+                    android:layout_marginRight="20dp">
+
+                    <Button
+                        android:id="@+id/xQ"
+                        android:layout_width="30sp"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|center_vertical|center"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="Q"
+                        android:text="Q"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/xW"
+                        android:layout_width="30sp"
+                        android:layout_height="fill_parent"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|center_vertical|center"
+                        android:layout_toRightOf="@id/xQ"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="W"
+                        android:text="W"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/xE"
+                        android:layout_width="30sp"
+                        android:layout_height="fill_parent"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|center_vertical|center"
+                        android:layout_toRightOf="@id/xW"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="E"
+                        android:text="E"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/xR"
+                        android:layout_width="30sp"
+                        android:layout_height="fill_parent"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|center_vertical|center"
+                        android:layout_toRightOf="@id/xE"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="R"
+                        android:text="R"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/xT"
+                        android:layout_width="33sp"
+                        android:layout_height="fill_parent"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|center_vertical|center"
+                        android:layout_toRightOf="@id/xR"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="T"
+                        android:text="T"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/xY"
+                        android:layout_width="33sp"
+                        android:layout_height="fill_parent"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|center_vertical|center"
+                        android:layout_toRightOf="@id/xT"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="Y"
+                        android:text="Y"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/xU"
+                        android:layout_width="33sp"
+                        android:layout_height="fill_parent"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|center_vertical|center"
+                        android:layout_toRightOf="@id/xY"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="U"
+                        android:text="U"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/xI"
+                        android:layout_width="33sp"
+                        android:layout_height="fill_parent"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|center_vertical|center"
+                        android:layout_toRightOf="@id/xU"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="I"
+                        android:text="I"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/xO"
+                        android:layout_width="33sp"
+                        android:layout_height="fill_parent"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|center_vertical|center"
+                        android:layout_toRightOf="@id/xI"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="O"
+                        android:text="O"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/xP"
+                        android:layout_width="33sp"
+                        android:layout_height="fill_parent"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|center_vertical|center"
+                        android:layout_toRightOf="@id/xO"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="P"
+                        android:text="P"
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </TableRow>
+
+            <!--            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:padding="1sp">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
 
                     <Button
                         android:id="@+id/xQ"
@@ -48,13 +208,17 @@
                         android:text="Q"
                         android:textColor="#000"
                         android:textStyle="bold"
-                        />
+                        android:layout_marginLeft="0sp"/>
 
                     <Button
                         android:id="@+id/xW"
                         android:layout_width="30sp"
                         android:layout_height="fill_parent"
+                        android:layout_alignParentTop="true"
                         android:layout_gravity="left"
+                        android:layout_marginLeft="1dp"
+                        android:layout_toEndOf="@+id/xQ"
+                        android:layout_toRightOf="@+id/xQ"
                         android:padding="0sp"
                         android:soundEffectsEnabled="true"
                         android:tag="W"
@@ -73,13 +237,18 @@
                         android:tag="E"
                         android:text="E"
                         android:textColor="#000"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:layout_marginLeft="58sp"/>
 
                     <Button
                         android:id="@+id/xR"
-                        android:layout_width="40sp"
+                        android:layout_width="33sp"
                         android:layout_height="fill_parent"
+                        android:layout_alignParentTop="true"
                         android:layout_gravity="center_horizontal"
+                        android:layout_toEndOf="@+id/xE"
+                        android:layout_toRightOf="@+id/xE"
+                        android:elevation="0dp"
                         android:ellipsize="marquee"
                         android:fitsSystemWindows="true"
                         android:soundEffectsEnabled="true"
@@ -90,9 +259,10 @@
 
                     <Button
                         android:id="@+id/xT"
-                        android:layout_width="40sp"
+                        android:layout_width="33sp"
                         android:layout_height="fill_parent"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="118sp"
                         android:ellipsize="marquee"
                         android:fitsSystemWindows="true"
                         android:soundEffectsEnabled="true"
@@ -103,22 +273,25 @@
 
                     <Button
                         android:id="@+id/xY"
-                        android:layout_width="39dp"
+                        android:layout_width="33dp"
                         android:layout_height="fill_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
                         android:layout_gravity="center"
                         android:ellipsize="marquee"
                         android:fitsSystemWindows="true"
                         android:soundEffectsEnabled="true"
-                        android:tag="y"
+                        android:tag="Y"
                         android:text="Y"
                         android:textColor="#000"
                         android:textStyle="bold" />
 
                     <Button
                         android:id="@+id/xU"
-                        android:layout_width="43sp"
+                        android:layout_width="39sp"
                         android:layout_height="fill_parent"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="175sp"
                         android:ellipsize="marquee"
                         android:fitsSystemWindows="true"
                         android:soundEffectsEnabled="true"
@@ -129,9 +302,10 @@
 
                     <Button
                         android:id="@+id/xI"
-                        android:layout_width="43sp"
+                        android:layout_width="33sp"
                         android:layout_height="fill_parent"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="215sp"
                         android:ellipsize="marquee"
                         android:fitsSystemWindows="true"
                         android:soundEffectsEnabled="true"
@@ -142,9 +316,10 @@
 
                     <Button
                         android:id="@+id/xO"
-                        android:layout_width="43sp"
+                        android:layout_width="39sp"
                         android:layout_height="fill_parent"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="251sp"
                         android:ellipsize="marquee"
                         android:fitsSystemWindows="true"
                         android:soundEffectsEnabled="true"
@@ -155,9 +330,10 @@
 
                     <Button
                         android:id="@+id/xP"
-                        android:layout_width="43sp"
+                        android:layout_width="33sp"
                         android:layout_height="fill_parent"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="287sp"
                         android:ellipsize="marquee"
                         android:fitsSystemWindows="true"
                         android:soundEffectsEnabled="true"
@@ -165,8 +341,8 @@
                         android:text="P"
                         android:textColor="#000"
                         android:textStyle="bold" />
-                </LinearLayout>
-            </TableRow>
+                </RelativeLayout>
+            </TableRow>-->
 
             <TableRow
                 android:layout_width="fill_parent"

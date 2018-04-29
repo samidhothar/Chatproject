@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.delaroystudios.firebasechat.ui.activities.RegisterActivity">
+    tools:context="com.binary6.transchato.ui.activities.RegisterActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

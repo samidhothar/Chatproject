@@ -1,40 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="@dimen/padding_avg"
     android:gravity="center"
-    android:background="@color/red_500">
+    >
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/translogo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TransChato"
 
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        />
     <EditText
         android:id="@+id/edit_text_name"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:drawableLeft="@drawable/person"
         android:drawablePadding="@dimen/padding_small"
         android:paddingBottom="@dimen/padding_avg"
         android:textColorHint="@color/white"
         android:hint="@string/Full_Name"
+        android:padding="5dp"
+        android:background="@drawable/layout_rounded_edit"
         android:inputType="textEmailAddress" />
     <EditText
         android:id="@+id/edit_text_email_id"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:drawableLeft="@drawable/email"
         android:textColorHint="@color/white"
         android:drawablePadding="@dimen/padding_small"
         android:paddingBottom="@dimen/padding_avg"
+        android:padding="5dp"
         android:hint="@string/email"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout_rounded_edit"
         android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/edit_text_password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:hint="@string/password"
+        android:layout_marginTop="20dp"
         android:textColorHint="@color/white"
         android:drawableLeft="@drawable/key"
+        android:padding="5dp"
+        android:background="@drawable/layout_rounded_edit"
         android:drawablePadding="@dimen/padding_small"
         android:paddingBottom="@dimen/padding_avg"
         android:inputType="textPassword" />
@@ -52,13 +99,19 @@
             style="?attr/borderlessButtonStyle"
             android:layout_width="match_parent"
             android:layout_margin="@dimen/padding_small"
-            android:background="@color/white"
+            android:background="@drawable/layout_rounded_button"
 
 
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
 
             android:text="@string/register" />
 
     </RelativeLayout>
-
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/binarylogo"
+        />
 </LinearLayout>
+</ScrollView>
